@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "item_tier_lists",
+  "info": {
+    "singularName": "item-tier-list",
+    "pluralName": "item-tier-lists",
+    "displayName": "Item tier list"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "item_name": {
+      "type": "string"
+    }
+  }
+}

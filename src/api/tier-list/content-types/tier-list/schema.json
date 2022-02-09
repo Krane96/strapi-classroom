@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tier_lists",
+  "info": {
+    "singularName": "tier-list",
+    "pluralName": "tier-lists",
+    "displayName": "Tier list"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_name": {
+      "type": "string"
+    }
+  }
+}
