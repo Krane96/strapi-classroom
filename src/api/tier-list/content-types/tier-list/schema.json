@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tier-list",
     "pluralName": "tier-lists",
-    "displayName": "Tier list"
+    "displayName": "Tier list",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,37 @@
   "attributes": {
     "hero_name": {
       "type": "string"
+    },
+    "tier": {
+      "type": "enumeration",
+      "enum": [
+        "S",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    "role": {
+      "type": "enumeration",
+      "enum": [
+        "Support",
+        "DPS",
+        "Tank"
+      ]
+    },
+    "faction": {
+      "type": "enumeration",
+      "enum": [
+        "Celestial",
+        "Gravebearer",
+        "Lightbearer",
+        "Wilder",
+        "Mauler",
+        "Dimensional",
+        "Hypogean"
+      ]
     }
   }
 }
